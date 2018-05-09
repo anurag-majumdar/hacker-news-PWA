@@ -1,0 +1,66 @@
+/* Navbar */
+.nav-toolbar {
+    /* background-color: black;
+    color: green; */
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+
+.nav-title {
+    margin: auto auto;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(211, 211, 211);
+}
+
+/* Sidenav */
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav {
+    width: 180px;
+    box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+
+@media screen and (min-width: 600px) {
+    .nav-title {
+        margin-left: 40px;
+        font-weight: 400;
+    }
+
+    .nav-menu-button {
+        display: none;
+    }
+
+    .nav-links {
+        font-size: 0.7em;
+        font-weight: 300;
+        cursor: pointer;
+        display: flex;
+        width: 300px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .nav-content {
+        width: 900px;
+        margin: auto auto;
+    }
+}

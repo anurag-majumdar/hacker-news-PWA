@@ -1,0 +1,22 @@
+.page-nav-container {
+    width: 130px;
+    margin: auto auto;
+}
+
+.stories-container {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .stories-container {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .stories-container {
+        width: 800px;
+    }
+}

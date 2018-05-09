@@ -1,0 +1,35 @@
+<mat-toolbar color="primary" class="nav-toolbar">
+  <mat-toolbar color="primary" class="nav-content">
+    <button class="nav-menu-button" mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()"> menu </mat-icon>
+    </button>
+    <span class="nav-title">
+      <a> Hacker News </a>
+    </span>
+    <span class="nav-links">
+      <a class="nav-link" routerLink="/hacker-news/top-stories" > TOP </a>
+      <a class="nav-link" routerLink="/hacker-news/new-stories"> NEW </a>
+      <a class="nav-link" routerLink="/hacker-news/show-stories"> SHOW </a>
+      <a class="nav-link" routerLink="/hacker-news/ask-stories"> ASK </a>
+      <a class="nav-link" routerLink="/hacker-news/job-stories"> JOBS </a>
+    </span>
+  </mat-toolbar>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav class="sidenav" mode="side" fixedInViewport="true" [attr.role]="'dialog'" [opened]="isSidenavOpen">
+    <mat-toolbar>
+      <button class="nav-close-button" mat-icon-button>
+        <mat-icon (click)="sidenav.close()"> close </mat-icon>
+      </button>
+    </mat-toolbar>
+    <mat-divider></mat-divider>
+    <mat-nav-list>
+      <a mat-list-item class="nav-menu-link" (click)="sidenav.close()" routerLink="/hacker-news/top-stories"> TOP </a>
+      <a mat-list-item class="nav-menu-link" (click)="sidenav.close()" routerLink="/hacker-news/new-stories"> NEW </a>
+      <a mat-list-item class="nav-menu-link" (click)="sidenav.close()" routerLink="/hacker-news/show-stories"> SHOW </a>
+      <a mat-list-item class="nav-menu-link" (click)="sidenav.close()" routerLink="/hacker-news/ask-stories"> ASK </a>
+      <a mat-list-item class="nav-menu-link" (click)="sidenav.close()" routerLink="/hacker-news/job-stories"> JOBS </a>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-sidenav-container>

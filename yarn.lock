@@ -156,6 +156,12 @@
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.0.tgz#85bf577fd7f45eff13128d4f5f0125078d610aec"
 
+"@angular/material@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-6.0.0.tgz#9704ced8ba2eca59b04c6c6ed032a1f36f685667"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.0.tgz#66a34b65136446cb3ec39362fd6d2dbb5482ba70"
@@ -168,9 +174,24 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/pwa@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.6.0.tgz#0ed5ad5a6eb6117ec424a153258c371d764397b9"
+  dependencies:
+    "@angular-devkit/core" "0.6.0"
+    "@angular-devkit/schematics" "0.6.0"
+    "@schematics/angular" "0.6.0"
+    typescript "~2.6.2"
+
 "@angular/router@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-6.0.0.tgz#09a5c6f6220084c3575df81e8b36cbe9fff10d1f"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/service-worker@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/service-worker/-/service-worker-6.0.0.tgz#35a187554d33e05911544080fafc281ff1b322e0"
   dependencies:
     tslib "^1.9.0"
 
@@ -5736,7 +5757,7 @@ tsickle@^0.27.2:
     source-map "^0.6.0"
     source-map-support "^0.5.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
 
@@ -5801,6 +5822,10 @@ typedarray@^0.0.6:
 "typescript@>=2.6.2 <2.8", typescript@~2.7.2:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
+
+typescript@~2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
 uglify-es@^3.3.4:
   version "3.3.9"

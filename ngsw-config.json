@@ -1,0 +1,65 @@
+{
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "*.css",
+          "*.js"
+        ],
+        "versionedFiles": [
+          "/*.bundle.css",
+          "/*.bundle.js",
+          "/*.chunk.js"
+        ],
+        "urls": [
+          "https://fonts.googleapis.com/icon?family=Material+Icons",
+          "https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [{
+    "name": "api-freshness",
+    "urls": [
+      "/new-stories"
+    ],
+    "cacheConfig": {
+      "maxSize": 100,
+      "maxAge": "1h",
+      "timeout": "10s",
+      "strategy": "freshness"
+    }
+  },
+  {
+    "name": "api-performance",
+    "urls": [
+      "/",
+      "/top-stories",
+      "/job-stories",
+      "/show-stories",
+      "/ask-stories"
+    ],
+    "cacheConfig": {
+      "maxSize": 100,
+      "maxAge": "4h",
+      "strategy": "performance"
+    }
+  }
+
+]
+}

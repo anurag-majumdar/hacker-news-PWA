@@ -1,0 +1,14 @@
+a.story-link {
+    text-decoration: none;
+    color: black;
+}
+
+.story-card {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .story-card {
+        margin-top: 20px;
+    }
+}

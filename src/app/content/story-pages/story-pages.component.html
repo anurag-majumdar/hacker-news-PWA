@@ -1,0 +1,18 @@
+<mat-card class="story-pages">
+  <div *ngIf="currentPage | async as page" class="page-nav-container">
+    <button mat-icon-button (click)="prevPage()" class="btn-back" [disabled]="page === 1">
+      <mat-icon> keyboard_arrow_left </mat-icon>
+    </button>
+    <span class="pages">{{ page }} of {{ pages }}</span>
+    <button mat-icon-button (click)="nextPage()" class="btn-next" [disabled]="page === pages">
+      <mat-icon> keyboard_arrow_right </mat-icon>
+    </button>
+  </div>
+
+</mat-card>
+
+<div class="stories-container">
+  <div *ngFor="let id of storyItems">
+    <story-card [cardId]="id"></story-card>
+  </div>
+</div>

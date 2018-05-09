@@ -1,0 +1,10 @@
+<mat-card class="story-card">
+  <mat-card-title> {{ storyItem?.score }} </mat-card-title>
+  <mat-card-subtitle>
+    <a *ngIf="storyItem?.url" [href]="storyItem.url" target="_blank" class="story-link">{{ storyItem?.title }}</a>
+    <span *ngIf="!storyItem?.url" class="story-link">{{ storyItem?.title }}</span>
+  </mat-card-subtitle>
+  <mat-card-content>
+    by {{ storyItem?.by }} | {{ storyItem?.kids?.length || 0 }} comments
+  </mat-card-content>
+</mat-card>
