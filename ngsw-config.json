@@ -36,7 +36,7 @@
   "dataGroups": [{
     "name": "api-freshness",
     "urls": [
-      "/new-stories"
+      "/hacker-news/new-stories"
     ],
     "cacheConfig": {
       "maxSize": 100,
@@ -49,10 +49,11 @@
     "name": "api-performance",
     "urls": [
       "/",
-      "/top-stories",
-      "/job-stories",
-      "/show-stories",
-      "/ask-stories"
+      "/hacker-news",
+      "/hacker-news/top-stories",
+      "/hacker-news/job-stories",
+      "/hacker-news/show-stories",
+      "/hacker-news/ask-stories"
     ],
     "cacheConfig": {
       "maxSize": 100,
