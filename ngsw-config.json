@@ -33,34 +33,34 @@
       }
     }
   ],
-  "dataGroups": [{
-    "name": "api-freshness",
-    "urls": [
-      "/hacker-news/new-stories"
-    ],
-    "cacheConfig": {
-      "maxSize": 100,
-      "maxAge": "1h",
-      "timeout": "10s",
-      "strategy": "freshness"
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "urls": [
+        "/new-stories"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "1h",
+        "timeout": "10s",
+        "strategy": "freshness"
+      }
+    },
+    {
+      "name": "api-performance",
+      "urls": [
+        "/",
+        "/hacker-news",
+        "/top-stories",
+        "/job-stories",
+        "/show-stories",
+        "/ask-stories"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "4h",
+        "strategy": "performance"
+      }
     }
-  },
-  {
-    "name": "api-performance",
-    "urls": [
-      "/",
-      "/hacker-news",
-      "/hacker-news/top-stories",
-      "/hacker-news/job-stories",
-      "/hacker-news/show-stories",
-      "/hacker-news/ask-stories"
-    ],
-    "cacheConfig": {
-      "maxSize": 100,
-      "maxAge": "4h",
-      "strategy": "performance"
-    }
-  }
-
-]
+  ]
 }
