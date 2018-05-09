@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-    { path: '', redirectTo: 'hacker-news/top-stories', pathMatch: 'full' },
-    { path: 'hacker-news', loadChildren: './content/content.module#ContentModule' },
+    { path: '', redirectTo: 'hackernews/top', pathMatch: 'full' },
+    { path: 'hackernews', loadChildren: './content/content.module#ContentModule' },
 ];
 
 @NgModule({

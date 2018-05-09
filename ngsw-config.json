@@ -37,7 +37,7 @@
     {
       "name": "api-freshness",
       "urls": [
-        "/new-stories"
+        "/new"
       ],
       "cacheConfig": {
         "maxSize": 100,
@@ -50,11 +50,11 @@
       "name": "api-performance",
       "urls": [
         "/",
-        "/hacker-news",
-        "/top-stories",
-        "/job-stories",
-        "/show-stories",
-        "/ask-stories"
+        "/hackernews",
+        "/top",
+        "/job",
+        "/show",
+        "/ask"
       ],
       "cacheConfig": {
         "maxSize": 100,
