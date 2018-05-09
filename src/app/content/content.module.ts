@@ -3,7 +3,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
-import { MatCardModule, MatButtonModule, MatIconModule } from '@angular/material';
+import { MatCardModule, MatButtonModule, MatIconModule, MatProgressSpinnerModule } from '@angular/material';
 
 import { DataService } from './data.service';
 import { SharedModule } from '../shared/shared.module';
@@ -19,7 +19,8 @@ import { StoryCardComponent } from './story-card/story-card.component';
     HttpClientModule,
     MatCardModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatProgressSpinnerModule
   ],
   providers: [DataService],
   declarations: [StoryPagesComponent, StoryCardComponent],

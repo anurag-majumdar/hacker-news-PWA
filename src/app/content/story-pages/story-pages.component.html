@@ -1,4 +1,4 @@
-<mat-card class="story-pages">
+<mat-card *ngIf="pages; else loading;" class="story-pages">
   <div *ngIf="currentPage | async as page" class="page-nav-container">
     <button mat-icon-button (click)="prevPage()" class="btn-back" [disabled]="page === 1">
       <mat-icon> keyboard_arrow_left </mat-icon>
@@ -16,3 +16,16 @@
     <story-card [cardId]="id"></story-card>
   </div>
 </div>
+
+<ng-template #loading>
+  <mat-card class="story-pages">
+    <div class="page-nav-container">
+      <span class="pages">Waiting for data...</span>
+    </div>
+  </mat-card>
+
+  <div class="spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+
+</ng-template>
