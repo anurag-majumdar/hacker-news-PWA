@@ -1,19 +1,19 @@
 {
   "configVersion": 1,
-  "index": "https://ng6-hacker-news-pwa.firebaseapp.com/index.html", 
+  "index": "https://anurag-majumdar.github.io/hacker-news-PWA/index.html", 
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://ng6-hacker-news-pwa.firebaseapp.com/0.4950284f1bc99f4cbecd.js",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/favicon.ico",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/index.html",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/main.b5f2933b2af268a8a12a.js",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/polyfills.1f6714fec54a55ce6df2.js",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/runtime.7e8eb8a4cba5dd3c153f.js",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/styles.f488d0cff5f64e3f2bd7.css"
+        "https://anurag-majumdar.github.io/hacker-news-PWA/0.4950284f1bc99f4cbecd.js",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/favicon.ico",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/index.html",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/main.b5f2933b2af268a8a12a.js",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/polyfills.1f6714fec54a55ce6df2.js",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/runtime.7e8eb8a4cba5dd3c153f.js",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/styles.f488d0cff5f64e3f2bd7.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons",
@@ -25,14 +25,14 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-128x128.png",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-144x144.png",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-152x152.png",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-192x192.png",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-384x384.png",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-512x512.png",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-72x72.png",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-96x96.png"
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-128x128.png",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-144x144.png",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-152x152.png",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-192x192.png",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-384x384.png",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-512x512.png",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-72x72.png",
+        "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -53,7 +53,7 @@
       "name": "api-performance",
       "patterns": [
         "\\/",
-        "https:\\/\\/ng6-hacker-news-pwa\\.firebaseapp\\.com\\/hackernews\\/",
+        "https:\\/\\/anurag-majumdar\\.github\\.io\\/hacker-news-PWA\\/hackernews\\/",
         "\\/top",
         "\\/job",
         "\\/show",
@@ -66,21 +66,21 @@
     }
   ],
   "hashTable": {
-    "https://ng6-hacker-news-pwa.firebaseapp.com/0.4950284f1bc99f4cbecd.js": "6f1a0abbb765e2208cb26efa8f6f655a31acd620",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/index.html": "c6ea16631e957c64fa32a7d3a802e73c91489ab1",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/main.b5f2933b2af268a8a12a.js": "001d674ebe6197b219afaae016ff00b92e1da4be",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/polyfills.1f6714fec54a55ce6df2.js": "1f224381133eb93f80b6a233d57503100552b267",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/runtime.7e8eb8a4cba5dd3c153f.js": "ee63915abb892957559ea926fd7e41b139227e3f",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/styles.f488d0cff5f64e3f2bd7.css": "036d9ee1bfb1c3645a7ca5385a77bb934e63fa23",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://ng6-hacker-news-pwa.firebaseapp.com/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41"
+    "https://anurag-majumdar.github.io/hacker-news-PWA/0.4950284f1bc99f4cbecd.js": "6f1a0abbb765e2208cb26efa8f6f655a31acd620",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/index.html": "a370cd992f92076ed04688aace5cbf93a2ce0928",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/main.b5f2933b2af268a8a12a.js": "001d674ebe6197b219afaae016ff00b92e1da4be",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/polyfills.1f6714fec54a55ce6df2.js": "1f224381133eb93f80b6a233d57503100552b267",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/runtime.7e8eb8a4cba5dd3c153f.js": "ee63915abb892957559ea926fd7e41b139227e3f",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/styles.f488d0cff5f64e3f2bd7.css": "036d9ee1bfb1c3645a7ca5385a77bb934e63fa23",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://anurag-majumdar.github.io/hacker-news-PWA/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41"
   },
   "navigationUrls": [
     {
