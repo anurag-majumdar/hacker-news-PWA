@@ -1,17 +1,29 @@
 <!DOCTYPE html><html lang="en"><head>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <meta charset="utf-8">
-  <title>HackerNews</title>
-  <base href="https://anurag-majumdar.github.io/hacker-news-PWA">
+  <title>ng6 Hacker News</title>
+  <base href="https://ng6-hacker-news-pwa.firebaseapp.com/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#1976d2">
 <link rel="stylesheet" href="styles.f488d0cff5f64e3f2bd7.css"></head>
+
 <body>
   <app-root></app-root>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('ngsw-worker.js')
+        .then((registration) => {
+          console.log('SW registered successfully!');
+          console.log('Registration Scope:', registration.scope);
+        });
+    }
+  </script>
 
   <noscript>
     <p>
@@ -21,4 +33,4 @@
 
 
 
-<script type="text/javascript" src="runtime.938297315c0f086c117d.js"></script><script type="text/javascript" src="polyfills.1f6714fec54a55ce6df2.js"></script><script type="text/javascript" src="main.4e530d3afcdb73bf23e3.js"></script></body></html>
+<script type="text/javascript" src="runtime.7e8eb8a4cba5dd3c153f.js"></script><script type="text/javascript" src="polyfills.1f6714fec54a55ce6df2.js"></script><script type="text/javascript" src="main.b5f2933b2af268a8a12a.js"></script></body></html>
