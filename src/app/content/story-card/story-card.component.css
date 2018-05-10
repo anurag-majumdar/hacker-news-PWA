@@ -34,8 +34,14 @@ a.story-link {
     0% {
         background-color: rgba(165, 165, 165, 0.1);
     }
+    25% {
+        background-color: rgba(165, 165, 165, 0.2);
+    }
     50% {
-        background-color: rgba(165, 165, 165, 0.3);
+        background-color: rgba(165, 165, 165, 0.4);
+    }
+    75% {
+        background-color: rgba(165, 165, 165, 0.2);
     }
     100% {
         background-color: rgba(165, 165, 165, 0.1);
@@ -45,5 +51,26 @@ a.story-link {
 @media screen and (max-width: 500px) {
     .story-card {
         margin-top: 20px;
+    }
+
+    .card-title {
+        width: 10%;
+        height: 30px;
+        animation: pulse 1s infinite ease-in-out;
+        -webkit-animation: pulse 1s infinite ease-in-out;
+    }
+    
+    .card-subtitle {
+        width: 90%;
+        height: 18px;
+        animation: pulse 1s infinite ease-in-out;
+        -webkit-animation: pulse 1s infinite ease-in-out;
+    }
+    
+    .card-content {
+        width: 40%;
+        height: 18px;
+        animation: pulse 1s infinite ease-in-out;
+        -webkit-animation: pulse 1s infinite ease-in-out;
     }
 }

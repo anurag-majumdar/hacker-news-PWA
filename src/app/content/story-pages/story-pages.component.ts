@@ -21,7 +21,7 @@ export class StoryPagesComponent implements OnInit {
   constructor(private dataService: DataService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    console.log(navigator.onLine);
+
     this.route.data.subscribe((data) => {
       this.dataService.getFeed(data.feed).subscribe(feedItems => {
         this.feedItems = feedItems;
@@ -33,9 +33,9 @@ export class StoryPagesComponent implements OnInit {
         });
 
       },
-      error => {
-        // console.log('Error:', error);
-      });
+        error => {
+          // console.log('Error:', error);
+        });
     });
 
   }

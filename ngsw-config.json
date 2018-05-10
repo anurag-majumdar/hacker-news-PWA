@@ -49,8 +49,7 @@
     {
       "name": "api-performance",
       "urls": [
-        "https://ng6-hacker-news-pwa.firebaseapp.com/",
-        "https://ng6-hacker-news-pwa.firebaseapp.com/hackernews/",
+        "/",
         "hackernews/",
         "/top",
         "/job",
