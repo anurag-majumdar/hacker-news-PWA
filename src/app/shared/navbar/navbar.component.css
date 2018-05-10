@@ -7,6 +7,10 @@
     box-shadow: 3px 0 6px rgba(0,0,0,.24);
 }
 
+.nav-menu-button {
+    position: absolute;
+}
+
 .nav-title {
     margin: auto auto;
     font-weight: 300;
