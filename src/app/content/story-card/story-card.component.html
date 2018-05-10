@@ -2,7 +2,7 @@
   <mat-card-title class="card-title"> {{ storyItem?.score }} </mat-card-title>
   <div class="content-container">
     <mat-card-subtitle class="card-subtitle">
-      <a *ngIf="storyItem?.url" [href]="storyItem.url" target="_blank" class="story-link">{{ storyItem?.title }}</a>
+      <a *ngIf="storyItem?.url" [href]="storyItem.url" target="_blank" rel="noopener" class="story-link">{{ storyItem?.title }}</a>
       <span *ngIf="!storyItem?.url" class="story-link">{{ storyItem?.title }}</span>
     </mat-card-subtitle>
     <mat-card-content class="card-content">
