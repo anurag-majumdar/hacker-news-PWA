@@ -1,18 +1,22 @@
 <mat-card *ngIf="storyItem; else loadingCard" class="story-card">
-  <mat-card-title> {{ storyItem?.score }} </mat-card-title>
-  <mat-card-subtitle>
-    <a *ngIf="storyItem?.url" [href]="storyItem.url" target="_blank" class="story-link">{{ storyItem?.title }}</a>
-    <span *ngIf="!storyItem?.url" class="story-link">{{ storyItem?.title }}</span>
-  </mat-card-subtitle>
-  <mat-card-content>
-    by {{ storyItem?.by }} | {{ storyItem?.kids?.length || 0 }} comments
-  </mat-card-content>
+  <mat-card-title class="card-title"> {{ storyItem?.score }} </mat-card-title>
+  <div class="content-container">
+    <mat-card-subtitle class="card-subtitle">
+      <a *ngIf="storyItem?.url" [href]="storyItem.url" target="_blank" class="story-link">{{ storyItem?.title }}</a>
+      <span *ngIf="!storyItem?.url" class="story-link">{{ storyItem?.title }}</span>
+    </mat-card-subtitle>
+    <mat-card-content class="card-content">
+      by {{ storyItem?.by }} | {{ storyItem?.kids?.length || 0 }} comments
+    </mat-card-content>
+  </div>
 </mat-card>
 
 <ng-template #loadingCard>
-  <mat-card class="story-card">
-    <mat-card-title class="card-title"></mat-card-title>
-    <mat-card-subtitle class="card-subtitle"></mat-card-subtitle>
-    <mat-card-content class="card-content"></mat-card-content>
+  <mat-card class="story-card-loading">
+    <mat-card-title class="card-title-loading"></mat-card-title>
+    <div class="content-container-loading">
+      <mat-card-subtitle class="card-subtitle-loading"></mat-card-subtitle>
+      <mat-card-content class="card-content-loading"></mat-card-content>
+    </div>
   </mat-card>
 </ng-template>

@@ -3,28 +3,63 @@ a.story-link {
     color: black;
 }
 
-.story-card {
+.story-card, .story-card-loading {
     margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15%;
+}
+
+.content-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 85%;
+}
+
+.card-subtitle {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 /* Loading Card */
 
-.card-title {
-    width: 8.33%;
-    height: 30px;
+.card-title-loading {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15%;
+    height: 35px;
     animation: pulse 1s infinite ease-in-out;
     -webkit-animation: pulse 1s infinite ease-in-out;
 }
 
-.card-subtitle {
-    width: 80%;
+.content-container-loading {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8%;
+    width: 85%;
+}
+
+.card-subtitle-loading {
+    width: 90%;
+    margin-bottom: 10px;
     height: 18px;
     animation: pulse 1s infinite ease-in-out;
     -webkit-animation: pulse 1s infinite ease-in-out;
 }
 
-.card-content {
-    width: 25%;
+.card-content-loading {
+    width: 50%;
+    margin-bottom: 0px;
     height: 18px;
     animation: pulse 1s infinite ease-in-out;
     -webkit-animation: pulse 1s infinite ease-in-out;
@@ -49,28 +84,42 @@ a.story-link {
 }
 
 @media screen and (max-width: 500px) {
-    .story-card {
+    .story-card, .story-card-loading {
         margin-top: 20px;
     }
 
     .card-title {
-        width: 15%;
-        height: 30px;
-        animation: pulse 1s infinite ease-in-out;
-        -webkit-animation: pulse 1s infinite ease-in-out;
+        width: 25%;
+    }
+    
+    .content-container {
+        width: 75%;
     }
     
     .card-subtitle {
         width: 100%;
-        height: 18px;
-        animation: pulse 1s infinite ease-in-out;
-        -webkit-animation: pulse 1s infinite ease-in-out;
     }
     
     .card-content {
+        width: 100%;
+    }
+
+    /* Loading Cards */
+
+    .card-title-loading {
+        width: 15%;
+    }
+
+    .content-container-loading {
+        margin-left: 5%;
         width: 70%;
-        height: 18px;
-        animation: pulse 1s infinite ease-in-out;
-        -webkit-animation: pulse 1s infinite ease-in-out;
+    }
+    
+    .card-subtitle-loading {
+        width: 100%;
+    }
+    
+    .card-content-loading {
+        width: 60%;
     }
 }
