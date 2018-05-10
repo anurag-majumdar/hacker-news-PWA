@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "sw-build": "ng build --prod && node build/fix-sw",
-    "sw-build-live": "ng build --prod --base-href https://ng6-hacker-news-pwa.firebaseapp.com/ && node build/fix-sw"
+    "sw-build-firebase": "ng build --prod --base-href https://ng6-hacker-news-pwa.firebaseapp.com/ && node build/fix-sw",
+    "sw-build-github": "ng build --prod --base-href https://anurag-majumdar.github.io/hacker-news-PWA/ && node build/fix-sw"
   },
   "private": true,
   "dependencies": {

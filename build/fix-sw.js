@@ -13,6 +13,7 @@
 * if not deploying to a live URL, and only running locally, set this to null, as the URL parsing fix will not be necessary
 */
 const SITE_BASE_HREF = 'https://ng6-hacker-news-pwa.firebaseapp.com/';
+// const SITE_BASE_HREF = 'https://anurag-majumdar.github.io/hacker-news-PWA/';
 
 /*
 *
