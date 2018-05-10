@@ -1,19 +1,32 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <meta charset="utf-8">
-  <title>HackerNews</title>
+  <title>ng6 Hacker News</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#1976d2">
 </head>
+
 <body>
   <app-root></app-root>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('ngsw-worker.js')
+        .then((registration) => {
+          console.log('SW registered successfully!');
+          console.log('Registration Object:' + registration.scope);
+        });
+    }
+  </script>
 
   <noscript>
     <p>
@@ -22,4 +35,5 @@
   </noscript>
 
 </body>
+
 </html>

@@ -8,8 +8,8 @@
         "files": [
           "/favicon.ico",
           "/index.html",
-          "*.css",
-          "*.js"
+          "/*.css",
+          "/*.js"
         ],
         "versionedFiles": [
           "/*.bundle.css",

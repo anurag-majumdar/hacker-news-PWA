@@ -32,6 +32,9 @@ export class StoryPagesComponent implements OnInit {
           this.storyItems = this.feedItems.slice((page - 1) * this.itemsPerPage, (page - 1) * this.itemsPerPage + this.itemsPerPage);
         });
 
+      },
+      error => {
+        console.log(error);
       });
     });
 
