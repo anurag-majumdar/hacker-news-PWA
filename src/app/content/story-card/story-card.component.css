@@ -7,6 +7,41 @@ a.story-link {
     margin-top: 15px;
 }
 
+/* Loading Card */
+
+.card-title {
+    width: 8.33%;
+    height: 30px;
+    animation: pulse 1s infinite ease-in-out;
+    -webkit-animation: pulse 1s infinite ease-in-out;
+}
+
+.card-subtitle {
+    width: 80%;
+    height: 18px;
+    animation: pulse 1s infinite ease-in-out;
+    -webkit-animation: pulse 1s infinite ease-in-out;
+}
+
+.card-content {
+    width: 25%;
+    height: 18px;
+    animation: pulse 1s infinite ease-in-out;
+    -webkit-animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgba(165, 165, 165, 0.1);
+    }
+    50% {
+        background-color: rgba(165, 165, 165, 0.3);
+    }
+    100% {
+        background-color: rgba(165, 165, 165, 0.1);
+    }
+}
+
 @media screen and (max-width: 500px) {
     .story-card {
         margin-top: 20px;

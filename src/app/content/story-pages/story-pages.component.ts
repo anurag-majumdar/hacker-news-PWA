@@ -34,7 +34,7 @@ export class StoryPagesComponent implements OnInit {
 
       },
       error => {
-        console.log(error);
+        // console.log('Error:', error);
       });
     });
 

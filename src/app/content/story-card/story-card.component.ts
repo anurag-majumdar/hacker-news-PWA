@@ -15,9 +15,12 @@ export class StoryCardComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getItem(this.cardId).subscribe((storyItem => {
+    this.dataService.getItem(this.cardId).subscribe(storyItem => {
       this.storyItem = storyItem;
-    }));
+    },
+      error => {
+        // console.log('Error:', error);
+      });
   }
 
 }
