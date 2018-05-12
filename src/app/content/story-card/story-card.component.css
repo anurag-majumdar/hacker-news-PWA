@@ -69,14 +69,8 @@ a.story-link {
     0% {
         background-color: rgba(165, 165, 165, 0.1);
     }
-    25% {
-        background-color: rgba(165, 165, 165, 0.2);
-    }
     50% {
         background-color: rgba(165, 165, 165, 0.4);
-    }
-    75% {
-        background-color: rgba(165, 165, 165, 0.2);
     }
     100% {
         background-color: rgba(165, 165, 165, 0.1);
