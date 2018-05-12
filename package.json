@@ -11,7 +11,7 @@
     "sw-build": "ng build --prod && node build/fix-sw",
     "workbox-build-firebase": "ng build --prod --base-href https://ng6-hacker-news-pwa.firebaseapp.com/ && workbox generateSW && firebase deploy",
     "workbox-build-github": "ng build --prod --base-href https://anurag-majumdar.github.io/hacker-news-PWA/ && workbox generateSW && ngh --no-silent",
-    "workbox-deploy": "workbox generateSW && firebase deploy",
+    "workbox-build": "ng build --prod && workbox generateSW",
     "sw-build-firebase": "ng build --prod --base-href https://ng6-hacker-news-pwa.firebaseapp.com/ && node build/fix-sw && firebase deploy",
     "sw-build-github": "ng build --prod --base-href https://anurag-majumdar.github.io/hacker-news-PWA/ && node build/fix-sw && ngh --no-silent"
   },
