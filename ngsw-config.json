@@ -33,8 +33,7 @@
       }
     }
   ],
-  "dataGroups": [
-    {
+  "dataGroups": [{
       "name": "api-freshness",
       "urls": [
         "/new"
