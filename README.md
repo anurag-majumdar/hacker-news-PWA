@@ -1,15 +1,14 @@
-# Angular 6.0 Hacker News
+# Angular 6.0 Hacker News PWA
 
-A Hacker News Progressive Web App (PWA) built using:
+A simple Progressive Web App (PWA) which shows news feed by fetching data from the popular [Hacker News API](https://github.com/HackerNews/API). The application was built using:
 
-* Angular 6.0
-* @angular/pwa
-* @angular/material
-* Flexbox and media queries for achieving responsive web design
-* Workbox (For caching data with service worker)
-* Hacker News API
+* [Angular 6.0](https://angular.io/)
+* [Angular Material](https://material.angular.io/) (@angular/material)
+* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [media queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) for achieving responsive web design
+* [Workbox](https://developers.google.com/web/tools/workbox/) (For caching data with service worker)
+* [Hacker News API](https://github.com/HackerNews/API)
 
-See it live: [Hacker News PWA](https://ng6-hacker-news-pwa.firebaseapp.com)
+Watch it live here: [Hacker News PWA](https://ng6-hacker-news-pwa.firebaseapp.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
