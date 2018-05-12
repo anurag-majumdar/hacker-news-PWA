@@ -1,10 +1,13 @@
 /* Navbar */
 .nav-toolbar {
-    /* background-color: black;
-    color: green; */
+    background-color: #3700B3;
     padding-left: 0px;
     padding-right: 0px;
     box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+
+.nav-content {
+    background-color: #3700B3;
 }
 
 .nav-menu-button {
@@ -52,7 +55,7 @@
 
     .nav-links {
         font-size: 0.7em;
-        font-weight: 300;
+        font-weight: 400;
         cursor: pointer;
         display: flex;
         width: 300px;

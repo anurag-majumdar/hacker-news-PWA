@@ -1,7 +1,7 @@
 {
-  "name": "hacker-news",
-  "short_name": "hacker-news",
-  "theme_color": "#1976d2",
+  "name": "Hacker News PWA",
+  "short_name": "Hacker News PWA",
+  "theme_color": "#3700B3",
   "background_color": "#fafafa",
   "display": "standalone",
   "orientation": "portrait",

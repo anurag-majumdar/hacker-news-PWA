@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { MatToolbarModule, MatButtonModule, MatIconModule, MatSidenavModule, MatListModule } from '@angular/material';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -15,9 +16,9 @@ import { MatToolbarModule, MatButtonModule, MatIconModule, MatSidenavModule, Mat
     MatSidenavModule,
     MatListModule
   ],
-  declarations: [NavbarComponent],
+  declarations: [NavbarComponent, FooterComponent],
   exports: [
-    NavbarComponent
+    NavbarComponent, FooterComponent
   ]
 })
 export class SharedModule { }

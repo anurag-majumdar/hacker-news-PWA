@@ -1,11 +1,12 @@
-# Hacker News Angular 6.0
+# Angular 6.0 Hacker News
 
 A Hacker News Progressive Web App using:
 
 * Angular 6.0
 * @angular/pwa
-* @angular/service-worker
 * @angular/material
+* Workbox
+* Hacker News API
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
