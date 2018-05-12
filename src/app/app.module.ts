@@ -16,7 +16,6 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
-    ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     AppRoutingModule,
     ContentModule,

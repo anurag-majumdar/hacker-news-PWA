@@ -7,5 +7,5 @@ export const routes: Routes = [
     { path: 'new', data: { feed: 'newstories' }, component: StoryPagesComponent },
     { path: 'ask', data: { feed: 'askstories' }, component: StoryPagesComponent },
     { path: 'show', data: { feed: 'showstories' }, component: StoryPagesComponent },
-    { path: 'job', data: { feed: 'jobstories' }, component: StoryPagesComponent }
+    { path: 'jobs', data: { feed: 'jobstories' }, component: StoryPagesComponent }
 ];

@@ -9,6 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "sw-build": "ng build --prod && node build/fix-sw",
+    "workbox-build-firebase": "ng build --prod --base-href https://ng6-hacker-news-pwa.firebaseapp.com/ && workbox generateSW && firebase deploy",
+    "workbox-deploy": "workbox generateSW && firebase deploy",
     "sw-build-firebase": "ng build --prod --base-href https://ng6-hacker-news-pwa.firebaseapp.com/ && node build/fix-sw && firebase deploy",
     "sw-build-github": "ng build --prod --base-href https://anurag-majumdar.github.io/hacker-news-PWA/ && node build/fix-sw && ngh --no-silent"
   },
@@ -51,6 +53,7 @@
     "replace-in-file": "^3.4.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
+    "typescript": "~2.7.2",
+    "workbox-cli": "^3.2.0"
   }
 }
