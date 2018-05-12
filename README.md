@@ -8,6 +8,8 @@ A Hacker News Progressive Web App using:
 * Workbox
 * Hacker News API
 
+See it live: [Hacker News PWA](https://ng6-hacker-news-pwa.firebaseapp.com)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 ## Development server
