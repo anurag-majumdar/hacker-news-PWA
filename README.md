@@ -5,7 +5,7 @@ A Hacker News Progressive Web App (PWA) built using:
 * Angular 6.0
 * @angular/pwa
 * @angular/material
-* Flexbox and Media queries
+* Flexbox and media queries for achieving responsive web design
 * Workbox (For caching data with service worker)
 * Hacker News API
 
