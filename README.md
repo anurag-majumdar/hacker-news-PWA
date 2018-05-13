@@ -16,7 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * It's a **Progressive Web App (PWA)** which utilizes **Offline First** techniques and **app-like** behaviour. Feel free to refresh the page when offline and see the cached data at work. The best way to learn about a new technology is to build a project out of it.
 * This application follows modern **Responsive Web Design** techniques with the help of **flexbox** and **media queries** to provide a responsive design according to content of the site and not according to different device sizes with fixed width only.
-* This project was built for **Udacity's Google Mobile Web Scholarship Track**.
+* This project was built as a part of **PWA Challenge** for **Google Udacity Challenge Scholarship for Mobile Web Specialist track**.
 
 # Screenshots
 
